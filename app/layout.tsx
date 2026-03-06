@@ -27,7 +27,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header>Happy birthday</header>
         {children}
+        <footer>TO you</footer>
       </body>
     </html>
   );
